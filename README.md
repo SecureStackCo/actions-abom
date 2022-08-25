@@ -1,7 +1,8 @@
-# SecureStack Application-Bill-of-Materials GitHub Action
+# SecureStack ABOM (Application Bill-of-Materials) GitHub Action
 
-A GitHub Action that creates an ABOM (Applicaiton Bill-of-Materials). What's an ABOM?  Well, its like an SBOM, just better.  
-The SecureStack ABOM is created holistically from all the important components of your application.  This includes source code, thrd-party libraries and AWS cloud resources.  In addition, this BoM will include any vulnerabilities from your source code and cloud stack.
+A GitHub Action that creates an ABOM (Application Bill-of-Materials). What's an ABOM?  Well, its like an SBOM, just better.  
+
+An application is more than just the third party libraries you are using.  Its the source code, but also the cloud resources and partner APIs you call.  If your application needs it to run, then it should be in the ABOM.  And that's why the SecureStack ABOM is created holistically from all the important components of your application.  This includes source code, thrd-party libraries and AWS cloud resources.  In addition, this BoM will include any vulnerabilities from your source code and cloud stack.
 
 ```
 name: Example Workflow Using SecureStack ABOM Action
