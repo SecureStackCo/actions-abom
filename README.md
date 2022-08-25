@@ -13,10 +13,9 @@ jobs:
         id: abom
         uses: SecureStackCo/actions-abom@v0.1.0
         with:
-          securestack_api_key: ${{ secrets.SECURESTACK_API_KEY_SECRET }}
-          securestack_app_id: '<Application Id>'
+          securestack_api_key: ${{ secrets.SECURESTACK_API_KEY }}
+          securestack_app_id: ${{ secrets.SECURESTACK_APP_ID }}
           severity: critical
-          flags: '-r -a <Application Id>'
 ```
 NOTE - to understand possible values for the action input `flags`, run the SecureStack cli locally:
 
