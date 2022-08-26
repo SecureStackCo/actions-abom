@@ -1,5 +1,5 @@
-name: 'SecureStack Application Bill-of-Materials'
-description: 'Create an Application-Bill-of-Materials with SecureStack'
+name: 'SecureStack Application Bill of Materials (ABOM/SBOM)'
+description: 'Create an Application Bill of Materials (ABOM) with SecureStack'
 branding:
   icon: 'code'  
   color: 'green'
